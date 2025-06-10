@@ -40,3 +40,15 @@ After entering a target URL, the tool will automatically start vulnerability tes
 
 Example:  
 ![example image](https://github.com/ShlokShar/insectool/blob/master/assets/example.png?raw=true "Example")
+
+---
+
+## ! Disclaimer !
+
+This tool is intended for educational and ethical penetration testing purposes only.  
+**Unauthorized scanning or exploitation of websites without explicit permission is illegal.**
+
+The developer of this program is **not responsible for any misuse, damage, or legal consequences** that may arise from its use.  
+By using this software, you agree to use it **only on systems you own or have explicit permission to test.**
+
+Use responsibly.
