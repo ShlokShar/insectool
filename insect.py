@@ -9,7 +9,7 @@ def scan_vulnerabilities(url):
     params = find_parameters(url)
     vulnerabilities = []
 
-    for method in ["get", "post"]:
+    for method in ["get"]:
         vulnerabilities.append(xss(url, method, params))
         vulnerabilities.append(sql_injections(url, method, params))
 
