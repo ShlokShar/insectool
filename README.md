@@ -39,4 +39,4 @@ python3 insect.py
 After entering a target URL, the tool will automatically start vulnerability tests.
 
 Example:  
-![example image](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![example image](https://github.com/ShlokShar/insectool/blob/master/assets/example.png?raw=true "Example")
