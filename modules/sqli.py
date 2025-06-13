@@ -14,6 +14,7 @@ generic_errors = [
     r"odbc",
     r"sqlstate",
 ]
+sqli_payloads = open("./payloads/sqli.txt", 'r').read().splitlines()
 
 
 def sql_injections(url, method, url_parameters):
