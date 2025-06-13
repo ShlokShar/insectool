@@ -6,7 +6,7 @@ Instead of manually testing payloads for XSS, SQL injection, or cookie misconfig
 
 ---
 
-## 🚀 Features
+## Features
 
 - Tests for reflected **XSS** vulnerabilities via URL parameters and headers
 - Injects common **SQL payloads**  via URL parameters
@@ -18,7 +18,7 @@ Instead of manually testing payloads for XSS, SQL injection, or cookie misconfig
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone this repository and install the required packages listed in requirements.txt.
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+## Usage
 
 Run the script using python:
 ```python3
