@@ -3,7 +3,7 @@ from modules.xss import xss
 from modules.sqli import sql_injections
 from modules.cookies import cookies
 from utils.params import find_parameters
-
+from utils.constants import head, icon
 
 def scan_vulnerabilities(url):
     params = find_parameters(url)
@@ -18,6 +18,8 @@ def scan_vulnerabilities(url):
 
 
 def main():
+    print(head)
+    print(icon)
     url = input("URL: >> ").strip()
     if not url:
         print("Please provide a valid URL.")
